@@ -6,9 +6,9 @@ function handleClickDancerButton () {
   * A new object of the given type will be created and added
   * to the stage.
   */
-
+  
   // make a dancer with a random position
-  let dancer = makeBlinkyDancer(
+  let dancer = new BlinkyDancerClass(
     document.body.clientHeight * Math.random(),
     document.body.clientWidth * Math.random(),
     Math.random() * 1000
